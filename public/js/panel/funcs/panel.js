@@ -99,7 +99,7 @@ const closeUserWithBtnClosePanelMenu = () => {
 };
 
 let commentsPanelUsers = () => {
-  dataTicketUserPanel.map((ticket) => {
+  dataTicketUserPanel.slice(0 , 3).map((ticket) => {
     // console.log(ticket)
 
     wrapperTikect.insertAdjacentHTML(

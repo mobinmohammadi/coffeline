@@ -281,7 +281,7 @@
           </div>
          </div>
      
-         <div class="bg-white flex-col x:flex-row  pt-2 mt-5 pb-2 pl-3 pr-3 rounded-md flex items-center justify-between">
+         <div class="bg-white header-main__tiket  pt-2 mt-5 pb-2 pl-3 pr-3 rounded-md flex items-center justify-between">
              <div class="text-sky-500 text-base font-MorabbaBold flex gap-1">
                  <span>تیکت های من</span>
                  <span>(6)</span>
@@ -297,21 +297,23 @@
              </div>
          </div>
 
-         <div class="bg-white flex mt-3 justify-between rounded-md p-6 tiketBox">
-                <div class="flex justify-between flex-col">
-                    <span class="text-xs">سلام سفارش من کی ...</span>
-                    <span class="text-xs">پشتیبانی</span>
-                </div>
-                <div class="flex gap-3 tiketTime">
-                    <div class="text-xs">
-                        <span>1403/08/27</span>
-                        <span>12:37</span>
-                    </div>
-                    <svg class="w-5 h-5 text-green-500">
-                        <use xlink:href="#check-circle"></use>
-                    </svg>
-                </div>
-         </div>
+       <div class="wrapper-allTiket">
+        <div class="bg-white flex mt-3 justify-between rounded-md p-6 tiketBox">
+          <div class="flex justify-between flex-col">
+              <span class="text-xs">سلام سفارش من کی ...</span>
+              <span class="text-xs">پشتیبانی</span>
+          </div>
+          <div class="flex gap-3 tiketTime">
+              <div class="text-xs">
+                  <span>1403/08/27</span>
+                  <span>12:37</span>
+              </div>
+              <svg class="w-5 h-5 text-green-500">
+                  <use xlink:href="#check-circle"></use>
+              </svg>
+          </div>
+   </div>
+       </div>
      </div>
 
      <!-- Finish Main Code  -->
@@ -319,5 +321,6 @@
     <div id="layer" class="active-layer"></div>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="../../js/panel/utils/utils.js" type="module"></script>
+    <script src="./../../js/panel/tiket.user.js" type="module"></script>
 </body>
 </html>
